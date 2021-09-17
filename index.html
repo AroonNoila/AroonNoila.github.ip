@@ -11,17 +11,29 @@
             #container > div {
                 font-size: 20px;
                 margin: 20px;
-                padding: 20px;
+                padding: 20px ;
                 width: 200px;
             }
+            #grid{
+                display: grid;
+                flex-wrap: wrap;
+                grid-template-columns: auto auto;
+            }
+            #grid-item{
+                padding: 20px;
+            }
         </style>
+        
     </head>
     <body>
-
-        <div id="container">
-            <div>1.This is some sample text for demo Flexbox This is some sample text for demo Flexbox</div>
-            <div>2. This is some sample text for demo Flexbox This is some sample text for demo Flexbox</div>
-            <div>3.This is some sample text for demo Flexbox This is some sample text for demo Flexbox</div>
+        <div id="grid">
+            <div>
+                <img src="AA.pag" alt="AA" width="200px" height="200px">
+                <h1>Name : Mr. Aroon Noila</h1>
+            </div>
+            <div>
+                <h1>1.This is some sample text for demo Flexbox This is some sample text for demo Flexbox</h1>
+            </div>
         </div>
     </body>
 </html>
