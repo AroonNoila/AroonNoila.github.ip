@@ -1,10 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <meta name="viewport" content="width=device-width">
         <title>MyCV</title>
         <style>
-            #container {
+            /*#container {
                 display: flex;
                 flex-wrap: wrap;
                 
@@ -23,24 +22,24 @@
             }
             #grid-item{
                 padding: 20px;
+            }*/
+        body{
+            font-size: 25px;
+        }
+        @media screen and (min-width: 400px) {
+            body {
+                font-size: 25px;
             }
-            @media only screen and (max-width: 480px){
-                .site-title{
-                    font-size: 25px;
-                }
+        @media screen and (min-width: 800px) {
+            body {
+                font-size: 100px;
             }
+            
+        }
         </style>
-        
     </head>
     <body>
-        <div id="grid">
-            <div>
-                <img src="AA.pag" alt="AA" width="200px" height="200px">
-                <h1>Name : Mr. Aroon Noila</h1>
-            </div>
-            <div>
-                <h1>1.This is some sample text for demo Flexbox This is some sample text for demo Flexbox</h1>
-            </div>
-        </div>
+        <h1>Resize the browser window to see the effect!</h1>
+        <p>Use mediaqueries to set the background-color to lavender if the viewport is 800 pixels wide or wider, to lightgreen if the viewport is between 400 and 799 pixels wide. If the viewport is smaller than 400 pixels, the background-color is lightblue.</p>
     </body>
 </html>
