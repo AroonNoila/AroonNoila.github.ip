@@ -9,13 +9,11 @@
                 flex-wrap: wrap;
                 grid-template-columns: auto auto;
             }
-            #grid-item{
+            .grid-item{
+                background-color: rgba(255, 255, 255, 0.479);
                 padding: 20px;
             }
-       /* body{
-            font-size: 10px;
-        }*/
-        @media screen and (min-width: 480px) {
+        /*@media screen and (min-width: 480px) {
             body {
                 font-size: 1px;
             }
@@ -24,18 +22,23 @@
             body {
                 font-size: 20px;
             }   
-        }
+        }*/
+
         </style>
     </head>
-    <body>
-        <div id="grid">
-            <div>
-                <img src="AA.pag" alt="AA" width="200px" height="200px">
-                <h1>Name : Mr. Aroon Noila</h1>
+    <body style="background-color: rgba(0, 0, 0, 0.808);">
+            <div id="grid">
+                <div class="grid-item">
+                    <div><img src="AN.jpg" alt="AN" width="200px" height="200px"></div>
+                    <dvi style="font-family: Arial, Helvetica, sans-serif;font-weight: 100;font-size: 20px;color: royalblue;">
+                    Name : Mr. Aroon Noila</dvi>
+                    <a href="https://www.facebook.com/aroon.noila.58/"><img src="AN.jpg" alt="AN" width="50px" height="50px"></a>
+                </div>
+                <div class="grid-item">
+                    <div><img src="AN.jpg" alt="AN" width="200px" height="200px"></div>
+                    <dvi style="font-family: Arial, Helvetica, sans-serif;font-weight: 100;font-size: 20px;color: royalblue;">
+                    Name : Mr. Aroon Noila</dvi>
+                </div>
             </div>
-            <div>
-                <h1>1.This is some sample text for demo Flexbox This is some sample text for demo Flexbox</h1>
-            </div>
-        </div>
     </body>
 </html>
