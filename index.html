@@ -5,7 +5,7 @@
         <link rel="icon" type="image/png" href="cv.png">
         <title>Aroon's Curriculum Vitae</title>
         <style>
-            #grid{
+            /*#grid{
                 display: grid;
                 flex-wrap: wrap;
                 grid-template-columns: auto auto;
@@ -13,25 +13,55 @@
             .grid-item{
                 background-color: rgba(255, 255, 255, 0.479);
                 padding: 20px;
-            }
+            }*/
         @media screen and (min-width: 1025px) {
-            body {
+            h1 {
                 margin-left: 300px;
                 margin-right: 300px;
             }
         }
         @media screen and (max-width: 1024px) {
-            body {
+            h1 {
                 margin-left: 0px;
                 margin-right: 0px;
             }   
-        }*/
+        }
+        h1{
+            background-color: rgb(109, 7, 109);
+            margin-top: 50px;
+            padding: auto;
+            height: 500px;
+        }
+        ul{
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+            border-radius: 0%;
+        }
+        li{
+            float: left;
+        }
+        li a{
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+        li a:hover:not(.logo){
+            background-color:white;
+            color: #000;
+        }
+        .logo{
+            background-color: #4caf50;
 
+        }
         </style>
     </head>
-    <body style="background-color: rgba(0, 0, 0, 0.808);">
-            <div id="grid">
-                <div class="grid-item">
+    <body style="background-color:#333;">
+                <!--<div class="grid-item">
                     <div><img src="AN.jpg" alt="AN" width="200px" height="200px"></div>
                     <dvi style="font-family: Arial, Helvetica, sans-serif;font-weight: 100;font-size: 20px;color: royalblue;">
                     Name : Mr. Aroon Noila</dvi>
@@ -41,7 +71,20 @@
                     <div><img src="AN.jpg" alt="AN" width="200px" height="200px"></div>
                     <dvi style="font-family: Arial, Helvetica, sans-serif;font-weight: 100;font-size: 20px;color: royalblue;">
                     Name : Mr. Aroon Noila</dvi>
-                </div>
-            </div>
+                </div>-->
+        <nav>
+            <ul class="menu">
+                <li class="logo"><a href="https://aroonnoila.github.io/AroonNoila.github.ip/"><img src="AN.jpg" alt="AN" width="55px" height="55px" style="border-radius: 50%;"></a></li>
+                <li class="item"  style="float: right;"><a href="#">Abot</a></li>
+                <li class="item" style="float: right;"><a href="#">Skil</a></li>
+                <li class="item" style="float: right;"><a href="#">shcole</a></li>
+            </ul>
+        </nav>
+
+        <h1>
+                <div style="float: left;margin: 10px;"><img src="AN.jpg" alt="AN" width="200px" height="200px" style="border-radius: 50%;"></div>
+                <dvi style="font-family: Arial, Helvetica, sans-serif;font-weight: 100;font-size: 20px;color: royalblue;">
+                    Name : Mr. Aroon Noila</dvi>
+        </h1>
     </body>
 </html>
