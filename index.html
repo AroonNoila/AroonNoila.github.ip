@@ -13,8 +13,17 @@
             .menu{
                 margin-top: 20px;
             }
-            .item{
+            .education{
                 float: right;
+                order: 3;
+            }
+            .professional{
+                float: right;
+                order: 2;
+            }
+            .skill{
+                float: right;
+                order: 1;
             }
             .BAR{
                 display: none;
@@ -24,7 +33,6 @@
             }
             ul {
                 overflow: hidden;
-                background-color: black;
             }
         }
         @media screen and (max-width: 1024px) {
@@ -35,7 +43,13 @@
             .logo{
                 float: right;
             }
-           .item{
+            .education{
+                display: none;
+            }
+            .professional{
+                display: none;
+            }
+            .skill{
                 display: none;
             }
             .BAR{
@@ -108,15 +122,15 @@
     <body background="bg.jpg">
         <ul class="menu">
             <li class="logo"><a href="index.html"><img src="home2.png" alt="home2"width="20px" height="20px"></a></li>
-            <li class="item Abot" ><a href="#">Abot</a></li>
-            <li class="item Skil" ><a href="#">Skil</a></li>
-            <li class="item shcole" ><a href="#">shcole</a></li>
+            <li class="skill" ><a href="skill.html">Skill</a></li>
+            <li class="professional" ><a href="experience.html">Experience</a></li>
+            <li class="education"><a href="education.html">Education</a></li>
             <div class="dropdown">
                 <button class="BAR"><img src="Bars.svg" alt="Bars" width="20px" height="20px" ></button>
                 <div class="dropdown-content">
-                    <a href="#">Link 1</a>
-                    <a href="#">Link 2</a>
-                    <a href="#">Link 3</a>
+                    <a href="education.html">Education</a>
+                    <a href="experience.html">Experience</a>
+                    <a href="skill.html">Skill</a>
                   </div>
             </div>
         </ul>
